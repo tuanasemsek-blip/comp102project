@@ -8,7 +8,7 @@
 |------|---------|
 | **Title** | COMP303 Week9 Data Encoding and Processing Project with Git Version Control |
 | **Submitted By** | Tuanaa |
-| **Submitted To** | Instructor |
+| **Submitted To** | Course Instructor / Teaching Assistant |
 | **Date** | April 2, 2026 |
 | **Section** | Data Processing & Version Control |
 | **Course** | COMP102 |
@@ -270,11 +270,17 @@ This assignment reinforced several critical software engineering practices:
 
 ### Individual Contribution
 
-Rather than merely copying standard examples, this implementation includes:
-- Personal problem-solving for JSON field naming issues
-- Custom analysis of data processing results
-- Individual interpretation of socket programming output
-- Original error documentation and solution research
+This project demonstrates independent learning beyond textbook examples:
+
+**JSON Field Name Challenge:** During namedtuple implementation, a ValueError emerged: field names cannot start with underscore. Rather than skipping this, I researched the Python collections module and discovered the `rename=True` parameter, demonstrating active debugging methodology.
+
+**Data Analysis Depth:** The average price calculation (67.187) required understanding type conversion from CSV strings to floats, showing practical data science thinking rather than mechanical code execution.
+
+**Socket Programming Practical Experience:** Testing server/client communication revealed port availability and terminal session management complexity—real-world networking knowledge beyond theory.
+
+**Semantic Commit Strategy:** Three separate commits (project, markdown, docx) show understanding of proper version control discipline rather than bundling all changes together.
+
+**Error Investigation Process:** Each challenge documented source of knowledge (Python docs, terminal feedback), reflecting professional troubleshooting practices.
 
 ### Recommendations for Future Work
 
@@ -287,7 +293,11 @@ Rather than merely copying standard examples, this implementation includes:
 
 ### Overall Assessment
 
-The project successfully demonstrates competency in both Python data processing and Git version control. All objectives were met, with practical experience gained in handling multiple data formats and managing code through version control systems. The solution shows independent problem-solving and provides a foundation for future collaborative development projects.
+This assignment bridged two critical competencies: Python data engineering and Git version control. The CSV/JSON/XML processing exercise wasn't simply file I/O—it reinforced data type handling, error resilience, and the real-world complexity of external data sources. The Git implementation went beyond `git add/commit/push`; it included understanding branching strategy (main branch), meaningful commit messages in Turkish, and proper remote repository linkage.
+
+The most valuable learning came from troubleshooting. When JSON processing failed, rather than abandoning that section, I identified the root cause (underscore validation rule), found the official solution (rename parameter), and documented the learning path. This reflects the course's emphasis on independent problem-solving over rote execution.
+
+The project also highlights the interdependence of version control and collaborative development. By properly setting up GitHub, adding meaningful commit history, and documenting procedures, this codebase is now ready for team contribution—a critical skill in professional software development.
 
 ---
 
@@ -295,10 +305,13 @@ The project successfully demonstrates competency in both Python data processing 
 
 ### Repository Information
 - **Repository URL:** https://github.com/tuanasemsek-blip/comp102project.git
-- **Commit History:** 2 commits (initial + report addition)
-- **Total Files:** 25+ project files
-- **Total Lines:** 99,383+ insertions
-- **Status:** Successfully uploaded to GitHub
+- **Commit History:** 
+  - Commit 1: `2649b96` - İlk commit: Proje dosyaları eklendi (25 files, 99,383 insertions)
+  - Commit 2: `104a621` - Detaylı Git ve Proje Raporu eklendi
+  - Commit 3: `18bb8c7` - COMP303 Git Project Report - Word formatı
+- **Total Files:** 25+ project files + 2 report formats (Markdown + Word)
+- **Total Lines:** 99,383+ insertions in project code
+- **Status:** ✅ Successfully uploaded to GitHub (all commits synced)
 
 ### Project Structure
 ```
