@@ -1,0 +1,5 @@
+Hello my dear students,
+
+You are in the lecture on week 10 where we cover the subject of "Socket Programming".
+
+Enjoy it =)
